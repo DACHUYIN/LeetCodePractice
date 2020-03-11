@@ -1,3 +1,5 @@
+package firstpage;
+
 import java.io.IOException;
 
 public class Practise2 {

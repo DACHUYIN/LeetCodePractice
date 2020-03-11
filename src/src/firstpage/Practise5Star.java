@@ -1,3 +1,5 @@
+package firstpage;
+
 public class Practise5Star {
 
     public static String longestPalindrome(String s) {

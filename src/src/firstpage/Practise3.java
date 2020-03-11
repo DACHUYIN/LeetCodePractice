@@ -1,3 +1,5 @@
+package firstpage;
+
 public class Practise3 {
     public static int lengthOfLongestSubstring(String s) {
         StringBuilder strNew = new StringBuilder();

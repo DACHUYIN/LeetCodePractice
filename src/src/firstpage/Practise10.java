@@ -1,3 +1,5 @@
+package firstpage;
+
 public class Practise10 {
 
     public static boolean isMatch(String s, String p) {

@@ -1,3 +1,5 @@
+package firstpage;
+
 public class Practise7 {
 
     public static int reverse(int x) {
