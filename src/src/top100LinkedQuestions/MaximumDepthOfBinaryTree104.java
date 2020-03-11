@@ -18,11 +18,11 @@ public class MaximumDepthOfBinaryTree104 {
         ++depth;
         if(null != root.left) maxDepth(root.left);
         if(null != root.right) maxDepth(root.right);
-        map.put("depth", depth);
         if(null == root.right && null == root.left) {
-            int maxDepth = map.get("depth");
+            int maxDepth = null != map.get("depth") ? map.get("depth") : 0;
             if (depth < maxDepth) depth = maxDepth;
         }
+        map.put("depth", depth);
 
         return depth;
     }
